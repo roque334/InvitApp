@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/event_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/event_name_text" />
+    
+    <EditText
+        android:id="@+id/event_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" > 
+        <requestFocus />
+    </EditText>
+    
+    <TextView 
+        android:id="@+id/event_date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/event_date_text" />
+        
+    <DatePicker
+    	android:id="@+id/datePicker"
+      	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content" 
+       	android:calendarViewShown="false" />
+
+    <TimePicker
+       	android:id="@+id/timePicker"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content" />
+
+     <TextView 
+        android:id="@+id/event_description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_text" />
+
+     <EditText
+         android:id="@+id/event_description_edit"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:inputType="textMultiLine" />
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <Button
+             android:id="@+id/next_button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:text="@string/next_button_text" />
+
+     </RelativeLayout>
+
+</LinearLayout>

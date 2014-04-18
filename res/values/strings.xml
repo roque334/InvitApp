@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">InvitApp</string>
+    <string name="login_textview">Ingresa con tu cuenta de Google+:</string>
+    <string name="header_event_text">Crear Evento</string>
+    <string name="footer_friend_text">Finalizar</string>
+    <string name="my_attendance_confirmation_text">Confirmado: </string>
+    <string name="attendance_text">Asistencia: </string>
+    <string name="event_name_text">Nombre: </string>
+    <string name="event_date_text">Fecha: </string>
+    <string name="red_ball_icon_desc">Poca</string>
+    <string name="attendant_text">Invitado por: </string>
+    <string name="datetime_text">Fecha y hora:</string>
+    <string name="description_text">Descripción</string>
+    <string name="my_attendance">¿Confirmar asistencia?</string>
+    <string name="next_button_text">Siguiente</string>
+
+</resources>

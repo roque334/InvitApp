@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="horizontal" >
+    	
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/attendance_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/red_ball_icon_desc"
+            android:src="@drawable/red_ball_icon" />
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/event_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="@string/event_name_text"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/event_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="TextView"
+            android:textColor="#000000" />
+        
+        <TextView
+            android:id="@+id/event_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="@string/event_date_text"
+            android:textColor="#000000" />
+        
+         <TextView
+            android:id="@+id/event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="TextView"
+            android:textColor="#000000" />
+         
+         <LinearLayout
+             android:layout_width="match_parent"
+    		 android:layout_height="match_parent"
+    		 android:orientation="horizontal">
+             
+             <TextView
+            	android:id="@+id/my_attendance_confirmation_text"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:ellipsize="marquee"
+            	android:maxLines="1"
+            	android:text="@string/my_attendance_confirmation_text"
+            	android:textColor="#000000" />
+             
+             <CheckBox
+            	android:id="@+id/my_attendance_confirmation_check"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:clickable="false"
+            	android:focusable="false" />
+             
+         </LinearLayout>
+        
+	</LinearLayout>
+	
+</LinearLayout>
